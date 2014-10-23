@@ -16,4 +16,4 @@ vim +BundleInstall &
 sleep 380
 kill -9 $(ps ax | grep 'vim +BundleInstall' | awk '{ print $1 }')
 
-ln -s $DIR/vim/rcfiles ~$HOME/.vim/rcfiles
+ln -s $DIR/vim/rcfiles $HOME/.vim/rcfiles
