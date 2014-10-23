@@ -17,7 +17,6 @@ ENV HOME /home/mdouchement
 # Dotfiles
 RUN chsh -s /bin/zsh
 RUN git clone git://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
-RUN rm $HOME/.profile
 RUN git clone https://github.com/mdouchement/dotfiles.git $HOME/dotfiles
 
 ## Powerline fonts
