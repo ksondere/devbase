@@ -1,5 +1,5 @@
 # dev-base
 
 ```bash
-$ sudo docker run -v /home/mdouchement/workspace:/home/mdouchement/workspace -it mdouchement/devbase:latest
+$ sudo docker run -v /home/ksondere/workspace:/home/ksondere/workspace -it ksondere/devbase:latest
 ```
